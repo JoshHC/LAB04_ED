@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-const mongoClient = require('mongodb').MongoClient
-const url = 'mongodb://localhost:27017'
-const dbName = 'Pizza-Database'
+const mongoClient = require('mongodb').MongoClient;
+const url = 'mongodb://localhost:27017';
+const dbName = 'Pizza-Database';
 
 /* Get Pizzas */
 router.get('/GetAll', function(req, res, next) {
